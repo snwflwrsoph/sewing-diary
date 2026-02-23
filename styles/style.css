@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Monsterrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #F5F5F5;
+    color:black
+}
+
+html{
+    font-size: 18px;
+
+    h1{font-size: 40px;}
+    h2{font-size: 28px;}
+    h3{font-size: 22px;}
+    h4{font-size: 18px; font-weight: 600;}
+    h5{font-size: 16px; font-weight: 200;}
+}
+
+#main-header{
+    background-color: #BE9FF6;
+    color:black;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 5px solid #76629b;
+}
+
+#menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+#menu a{
+    text-decoration: none;
+}

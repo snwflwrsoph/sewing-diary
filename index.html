@@ -10,20 +10,22 @@
     </head>
 
     <body>
-        <header>
+        <header id="main-header">
             <img src="images/sdLogo.png" alt="Sewing Diary logo" width="50" height="50" />
             <h1>Sewing Diary</h1>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">resources</a></li>
+                    <li><a href="#">patterns</a></li>
+                    <li><a href="#">tutorials</a></li>
+                    <li><a href="#">log in</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">resources</a></li>
-                <li><a href="#">patterns</a></li>
-                <li><a href="#">tutorials</a></li>
-                <li><a href="#">log in</a></li>
-            </ul>
-        </nav>
+        
 
         <main>
             <div class="fecha">
@@ -44,7 +46,7 @@
                 <img src="images/pattern.jpg" alt="Pattern" width="1000">
             </div>
 
-            <div class="side">
+            <aside class="side">
                 <h2>Subscribe to my blog!</h2>
 
                 <div class="Subsribe">
@@ -74,7 +76,7 @@
                     <textarea id="commentBox" rows="5" cols="40">comment something</textarea>
                     <button type="submit">send</button>
                 </div>
-            </div>
+            </aside>
         </main>
     </body>
 </html>
