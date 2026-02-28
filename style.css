@@ -84,7 +84,7 @@ html{
     left:0;
     height: 4px;
     width: 100%;
-    background-color:linear-graditen(90deg, #76629b, #A87FF3, #BE9FF6, #DECFFB);
+    background:linear-gradient(90deg, #76629B, #A87FF3, #BE9FF6, #DECFFB);
     background-size: 200% auto;
     transition: all .5s;
     transform: translateX(-100%);
