@@ -33,6 +33,7 @@ html{
 
 .main-header h1{
     margin:0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .main-header div{
@@ -55,19 +56,36 @@ html{
     padding:20px;
     margin:0;
     font-size: 24px;
+    font-family: "Montserrat", sans-serif;
 }
 .menu button{
     display:flex;
     gap:20px;
     padding: 10px;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    color:#A87FF3;
-    font-weight: 400;
-    background-color: #DECFFB;
+    color:#DECFFB;
+    font-weight: 600;
+    background-image: linear-gradient(135deg, #76629B 0%, #A87FF3 100%);
+    box-shadow: 0 20px 30px -6px rgba(118, 98, 155, 0.5);
+    outline: none;
+    cursor: pointer;
+    border:none;
     border-color:#DECFFB;
     border-radius: 20px;
     align-items: center;
     height: 50px;
+
+    transition: all 0.3s ease-in-out;    
+}
+
+.menu button:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.menu button:active{
+    opacity: 0.5;
 }
 
 .menu a{
@@ -134,24 +152,28 @@ html{
 .fecha h3{
     display:flex;
     justify-content: center;
-    font-weight: 200;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
 }
 
 .post h2{
     display:flex;
     justify-content: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .post p{
     display:flex;
     justify-content: left;
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .post ol{
     display:block;
     justify-content: left;
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .post-content{
@@ -173,6 +195,10 @@ html{
     margin:50px 10px;
 }
 
+.main p{
+    font-family: "Montserrat", sans-serif;
+}
+
 .side{
     margin: 75px 50px 20px 100px;
     padding:20px;
@@ -185,6 +211,7 @@ html{
 }
 .side h2{
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Subscribe{
@@ -194,6 +221,7 @@ html{
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Subscribe input{
@@ -203,6 +231,7 @@ html{
     font-size: 24px;
     padding:10px;
     background-color: gainsboro;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Subscribe button{
@@ -211,14 +240,33 @@ html{
     margin:20px;
     border-radius: 20px;
     font-size: 24px;
-    background-color: #A87FF3;
+    background-image: linear-gradient(135deg, #76629B 0%, #A87FF3 100%);
+    box-shadow: 0 20px 30px -6px rgba(118, 98, 155, 0.5);
+    outline:none;
+    cursor: pointer;
+    border:none;
+
     border-color: #76629b;
+    font-family: "Montserrat", sans-serif;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.Subscribe button:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.Subscribe button:active{
+    opacity: 0.5;
 }
 
 .social-media {
     display: flex;
     justify-content: center;
     gap:15px;
+    font-family: "Montserrat", sans-serif;
 }
 .social-media img{
     border-radius: 10px;
@@ -227,6 +275,7 @@ html{
 .comment{
     margin-bottom:20px;
     margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
 }
 .comment img{
     border-radius: 50%;
@@ -241,10 +290,13 @@ html{
 
 .comment-header h5{
     margin:0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .comment p{
     margin:5px 0 0 40px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cbox textarea{
@@ -262,8 +314,25 @@ html{
     margin:20px;
     border-radius: 20px;
     font-size: 24px;
-    background-color:#DECFFB;
+    background-image: linear-gradient(135deg, #76629B 0%, #A87FF3 100%);
+    box-shadow: 0 20px 30px -6px rgba(118, 98, 155, 0.5);
+    outline:none;
+    cursor: pointer;
+    border: none;
     border-color: #DECFFB;
+    font-family: "Montserrat", sans-serif;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.cbox button:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.cbox button:active{
+    opacity: 0.5;
 }
 
 @keyframes gradient-89{
