@@ -84,7 +84,7 @@ html{
     left:0;
     height: 4px;
     width: 100%;
-    background-color:linear-graditen(90deg, #76629b, #A87FF3, #BE9FF6, #DECFFB);
+    background:linear-gradient(90deg, #76629B, #A87FF3, #BE9FF6, #DECFFB);
     background-size: 200% auto;
     transition: all .5s;
     transform: translateX(-100%);
@@ -93,12 +93,6 @@ html{
 .menu a:hover::after{
     transform: translateX(0%);
     animation: gradient-89 3s linear infinite;
-}
-
-@keyframes gradient-89{
-    0%{ background-position: 100% 0%;};
-    50%{ background-position: 0% 0%};
-    100%{ background-position: 100% 0%;}
 }
 
 .wrapper{
@@ -270,6 +264,12 @@ html{
     font-size: 24px;
     background-color:#DECFFB;
     border-color: #DECFFB;
+}
+
+@keyframes gradient-89{
+    0%{ background-position: 100% 0%;};
+    50%{ background-position: 0% 0%};
+    100%{ background-position: 100% 0%;}
 }
 
 @media (max-width:1400px){
