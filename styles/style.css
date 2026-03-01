@@ -75,6 +75,7 @@ html{
     border-radius: 20px;
     align-items: center;
     height: 50px;
+    justify-content: center;
 
     transition: all 0.3s ease-in-out;    
 }
@@ -263,6 +264,10 @@ html{
     opacity: 0.5;
 }
 
+.Subscribe p{
+    text-align: center;
+}
+
 .social-media {
     display: flex;
     justify-content: center;
@@ -366,18 +371,21 @@ html{
 
     .menu{
         flex-direction: column;
-        justify-items: center;
+        align-items: center;
     }
 
     .menu ul{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        
+        align-items: center;
+        padding: 0;
+
     }
 
     .menu button{
-        margin-bottom:15px;
+        margin-top: 20px;
+        margin-bottom:20px;
+        width: 200px;
+        justify-content: center;
     }
 
     .fecha{
@@ -389,8 +397,29 @@ html{
         margin-left: 10px;
         justify-content: center;
     }
+}
+
+@media (max-width:1600px) and (min-width:1201px){
+    .main {
+        width: 700px;
+        justify-content: center;
+    }
+
+    .side {
+        width:500px;
+    }
+
+    .main #pattern{
+        width: 700px;
+    }
 
     .Subscribe input{
-
+        width:270px;
     }
+
+    .Subscribe p{
+        padding: 10px;
+        text-align: center;
+    }
+
 }
