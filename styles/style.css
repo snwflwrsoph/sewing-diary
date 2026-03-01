@@ -222,6 +222,7 @@ html{
     flex-direction: column;
     align-items: center;
     font-family: "Montserrat", sans-serif;
+    justify-items: center;
 }
 
 .Subscribe input{
@@ -341,7 +342,7 @@ html{
     100%{ background-position: 100% 0%;}
 }
 
-@media (max-width:1400px){
+@media (max-width:1200px){
     .layout{
         flex-direction: column;
         justify-items; center;
@@ -361,6 +362,22 @@ html{
         flex-direction: column;
         gap: 20px;
         padding: 0 10px;
+    }
+
+    .menu{
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .menu button{
+        margin-bottom:15px;
     }
 
     .fecha{
